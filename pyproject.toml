@@ -1,0 +1,19 @@
+[project]
+name = "notes-rag-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.4.1",
+    "groq>=1.4.0",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.10.4",
+    "pyyaml>=6.0.3",
+    "tenacity>=9.1.4",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.16",
+]
